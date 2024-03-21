@@ -1,0 +1,82 @@
+body {
+    background-color: #FEFAEF !important;
+}
+
+.pt-sans-bold {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.pt-sans-regular {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    min-height: 100vh;
+    background-color: #FEFAEF !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-body-tertiary {
+    background-color: rgb(181 187 193) !important;
+}
+
+.bg-blue {
+    background-color: rgb(39, 53, 92);
+}
+
+.logo {
+    margin-bottom: 32px;
+}
+
+.align-top-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.quiz-tag {
+    color: white;
+}
+
+.cardFooter {
+    width: 100%;
+    text-align: right;
+}
+
+.col-md-8 {
+    background-image: url(./img/brainbg.jpg) !important;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: -webkit-fill-available;
+}
+
+.quiz-deck {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    margin-inline: 92px;
+}
+
+.placeH {
+    height: 80px;
+}
